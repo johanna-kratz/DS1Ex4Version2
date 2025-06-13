@@ -1,5 +1,5 @@
-def ASSIGNMENT(new_list, i, old_list, j):
-    new_list[i] = old_list[j]
+ def ASSIGNMENT(new_list, i, old_list, j):
+    new_list[i] = old_list[j]     
 
 
 def mergeSort(list_to_sort_by_merge):
