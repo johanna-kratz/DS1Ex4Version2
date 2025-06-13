@@ -1,5 +1,9 @@
 import matplotlib.pyplot as plt 
 
+ def ASSIGNMENT(new_list, i, old_list, j):
+    new_list[i] = old_list[j]     
+
+
 
 
 def merge_sort(list_to_sort_by_merge): 
@@ -42,9 +46,11 @@ def merge_sort(list_to_sort_by_merge):
 if __name__ == "__main__":
     my_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
     x = range(len(my_list))
-    plt.plot(x, my_list)
+    plt.plot(x, my_list, colour= "blue")
     plt.show()
     my_sorted_list= merge_sort(my_list)
     x = range(len(my_sorted_list))
     plt.plot(x, my_sorted_list)
     plt.show()
+
+
